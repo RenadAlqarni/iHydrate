@@ -15,13 +15,12 @@ struct ProgressRingView: View {
             
             ProgressView(value: todayIntake , total: targetIntake) {
                 Text(String(format: "%.1f", todayIntake))
-//                Text(String(format: "%.1f", targetIntake))
-//                    .font(.title)
             }
                 .scaleEffect(3)
                 .tint(.blue)
                 .progressViewStyle(CircularProgressViewStyle())
         }
+        
             HStack(alignment: .bottom) {
                 
                 Button(action: {

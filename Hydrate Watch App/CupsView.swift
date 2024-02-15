@@ -13,7 +13,7 @@ struct CupsView: View {
     
     var body: some View {
         VStack{
-//            Text(\(calculateCup(cupsNumber: cupsNumber, targetCupsNumber: targetCupsNumber)
+            Text("Today \(calculateCup(cupsNumber: cupsNumber, targetCupsNumber: targetCupsNumber) * 100)")
             Image(systemName: "drop.fill")
                 .font(.system(size: 100))
 
