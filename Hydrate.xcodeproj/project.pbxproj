@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13D339072B7CE0B50048A59A /* Funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D339062B7CE0B50048A59A /* Funcs.swift */; };
+		13D339092B7CE2650048A59A /* CupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D339082B7CE2650048A59A /* CupsView.swift */; };
+		13D3390B2B7CE27B0048A59A /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3390A2B7CE27B0048A59A /* ProgressRingView.swift */; };
 		13D9C0932B7B97AE00951DED /* HydrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0922B7B97AE00951DED /* HydrateApp.swift */; };
 		13D9C0952B7B97AE00951DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0942B7B97AE00951DED /* ContentView.swift */; };
 		13D9C0972B7B97B000951DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D9C0962B7B97B000951DED /* Assets.xcassets */; };
@@ -16,7 +19,6 @@
 		13D9C0B02B7B97B000951DED /* HydrateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0AF2B7B97B000951DED /* HydrateUITestsLaunchTests.swift */; };
 		13D9C0B62B7B97B000951DED /* Hydrate Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 13D9C0B52B7B97B000951DED /* Hydrate Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		13D9C0BB2B7B97B000951DED /* HydrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0BA2B7B97B000951DED /* HydrateApp.swift */; };
-		13D9C0BD2B7B97B000951DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0BC2B7B97B000951DED /* ContentView.swift */; };
 		13D9C0BF2B7B97B100951DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D9C0BE2B7B97B100951DED /* Assets.xcassets */; };
 		13D9C0C22B7B97B100951DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D9C0C12B7B97B100951DED /* Preview Assets.xcassets */; };
 		13D9C0CC2B7B97B100951DED /* Hydrate_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0CB2B7B97B100951DED /* Hydrate_Watch_AppTests.swift */; };
@@ -77,6 +79,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13D339062B7CE0B50048A59A /* Funcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
+		13D339082B7CE2650048A59A /* CupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupsView.swift; sourceTree = "<group>"; };
+		13D3390A2B7CE27B0048A59A /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
 		13D9C08F2B7B97AE00951DED /* Hydrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D9C0922B7B97AE00951DED /* HydrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateApp.swift; sourceTree = "<group>"; };
 		13D9C0942B7B97AE00951DED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +94,6 @@
 		13D9C0AF2B7B97B000951DED /* HydrateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		13D9C0B52B7B97B000951DED /* Hydrate Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrate Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D9C0BA2B7B97B000951DED /* HydrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateApp.swift; sourceTree = "<group>"; };
-		13D9C0BC2B7B97B000951DED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13D9C0BE2B7B97B100951DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D9C0C12B7B97B100951DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D9C0C72B7B97B100951DED /* Hydrate Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrate Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +182,7 @@
 				13D9C0942B7B97AE00951DED /* ContentView.swift */,
 				13D9C0962B7B97B000951DED /* Assets.xcassets */,
 				13D9C0982B7B97B000951DED /* Preview Content */,
+				13D339062B7CE0B50048A59A /* Funcs.swift */,
 			);
 			path = Hydrate;
 			sourceTree = "<group>";
@@ -211,7 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				13D9C0BA2B7B97B000951DED /* HydrateApp.swift */,
-				13D9C0BC2B7B97B000951DED /* ContentView.swift */,
+				13D3390A2B7CE27B0048A59A /* ProgressRingView.swift */,
+				13D339082B7CE2650048A59A /* CupsView.swift */,
 				13D9C0BE2B7B97B100951DED /* Assets.xcassets */,
 				13D9C0C02B7B97B100951DED /* Preview Content */,
 			);
@@ -465,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D339072B7CE0B50048A59A /* Funcs.swift in Sources */,
 				13D9C0952B7B97AE00951DED /* ContentView.swift in Sources */,
 				13D9C0932B7B97AE00951DED /* HydrateApp.swift in Sources */,
 			);
@@ -491,7 +498,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D9C0BD2B7B97B000951DED /* ContentView.swift in Sources */,
+				13D339092B7CE2650048A59A /* CupsView.swift in Sources */,
+				13D3390B2B7CE27B0048A59A /* ProgressRingView.swift in Sources */,
 				13D9C0BB2B7B97B000951DED /* HydrateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
