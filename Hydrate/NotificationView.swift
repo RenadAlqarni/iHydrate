@@ -29,8 +29,8 @@ struct NotificationView: View {
                 .font(.title3)
                 .foregroundColor(.gray)
                 
-            RoundedRectangle(cornerRadius: 5)
-                .fill(Color.backgroundRectangle.opacity(0.2))
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color("backgroundRectangle"))
                 .frame(width: 350, height: 130)
                 .overlay(
                     VStack{
@@ -40,7 +40,7 @@ struct NotificationView: View {
                                 .padding(.leading, -120.0)
                             
                             DatePicker("", selection: $startH, displayedComponents: .hourAndMinute)
-                                .foregroundColor(Color("backgroundRectangle"))
+                                .background(Color("backgroundRectangle"))
                                 .labelsHidden()
                                 .cornerRadius(15)
                         }
@@ -68,7 +68,7 @@ struct NotificationView: View {
                 .foregroundColor(.gray)
             
             VStack {
-                      HStack {
+                      HStack (spacing: 20){
                           ForEach(intervals[0], id: \.self) { interval in
                               Button(action: {
                                   selectedInterval = interval
@@ -78,7 +78,9 @@ struct NotificationView: View {
                                       .padding()
                                       .background(
                                        RoundedRectangle(cornerRadius: 10)
-                                        .fill(Color("backgroundRectangle")))
+//                                        .frame(width: 100, height: 200)
+                                        .fill(Color("backgroundRectangle"))
+                                      )
                                       .background(selectedInterval == interval ? Color("CalcButton") : Color.white)
                                       .foregroundColor(selectedInterval == interval ? .white : .black)
                                       .cornerRadius(10)
