@@ -11,7 +11,7 @@
 		13D339092B7CE2650048A59A /* CupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D339082B7CE2650048A59A /* CupsView.swift */; };
 		13D3390B2B7CE27B0048A59A /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3390A2B7CE27B0048A59A /* ProgressRingView.swift */; };
 		13D9C0932B7B97AE00951DED /* HydrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0922B7B97AE00951DED /* HydrateApp.swift */; };
-		13D9C0952B7B97AE00951DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0942B7B97AE00951DED /* ContentView.swift */; };
+		13D9C0952B7B97AE00951DED /* CalculateWeightVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0942B7B97AE00951DED /* CalculateWeightVeiw.swift */; };
 		13D9C0972B7B97B000951DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D9C0962B7B97B000951DED /* Assets.xcassets */; };
 		13D9C09A2B7B97B000951DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D9C0992B7B97B000951DED /* Preview Assets.xcassets */; };
 		13D9C0A42B7B97B000951DED /* HydrateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0A32B7B97B000951DED /* HydrateTests.swift */; };
@@ -24,6 +24,8 @@
 		13D9C0CC2B7B97B100951DED /* Hydrate_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0CB2B7B97B100951DED /* Hydrate_Watch_AppTests.swift */; };
 		13D9C0D62B7B97B100951DED /* Hydrate_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0D52B7B97B100951DED /* Hydrate_Watch_AppUITests.swift */; };
 		13D9C0D82B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0D72B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift */; };
+		C541C7C02B7E4A5400243931 /* WaterIntakeVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */; };
+		C541C7C22B7E54E700243931 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C7C12B7E54E700243931 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +86,7 @@
 		13D3390A2B7CE27B0048A59A /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
 		13D9C08F2B7B97AE00951DED /* Hydrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D9C0922B7B97AE00951DED /* HydrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrateApp.swift; sourceTree = "<group>"; };
-		13D9C0942B7B97AE00951DED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13D9C0942B7B97AE00951DED /* CalculateWeightVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateWeightVeiw.swift; sourceTree = "<group>"; };
 		13D9C0962B7B97B000951DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D9C0992B7B97B000951DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D9C09F2B7B97B000951DED /* HydrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,8 @@
 		13D9C0D12B7B97B100951DED /* Hydrate Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrate Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D9C0D52B7B97B100951DED /* Hydrate_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrate_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		13D9C0D72B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrate_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeVeiw.swift; sourceTree = "<group>"; };
+		C541C7C12B7E54E700243931 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				13D9C0922B7B97AE00951DED /* HydrateApp.swift */,
-				13D9C0942B7B97AE00951DED /* ContentView.swift */,
+				13D9C0942B7B97AE00951DED /* CalculateWeightVeiw.swift */,
+				C541C7C12B7E54E700243931 /* NotificationView.swift */,
+				C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */,
 				13D9C0962B7B97B000951DED /* Assets.xcassets */,
 				13D9C0982B7B97B000951DED /* Preview Content */,
 				13D339062B7CE0B50048A59A /* Funcs.swift */,
@@ -368,7 +374,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					13D9C08E2B7B97AE00951DED = {
 						CreatedOnToolsVersion = 15.1;
@@ -472,8 +478,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D339072B7CE0B50048A59A /* Funcs.swift in Sources */,
-				13D9C0952B7B97AE00951DED /* ContentView.swift in Sources */,
+				13D9C0952B7B97AE00951DED /* CalculateWeightVeiw.swift in Sources */,
+				C541C7C02B7E4A5400243931 /* WaterIntakeVeiw.swift in Sources */,
 				13D9C0932B7B97AE00951DED /* HydrateApp.swift in Sources */,
+				C541C7C22B7E54E700243931 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +594,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -647,6 +656,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
