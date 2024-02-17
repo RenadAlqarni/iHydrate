@@ -19,6 +19,7 @@ struct NotificationView: View {
                 .font(.title)
                 .bold()
                 .padding(.bottom)
+                .padding(.leading,-30)
                 Text("The start and End hour")
                 .font(.title3)
                 .bold()
@@ -104,9 +105,6 @@ struct NotificationView: View {
                           }
                       }
                   }
-              
-          
-            
         }
     }
 }
