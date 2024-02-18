@@ -107,6 +107,18 @@ struct NotificationView: View {
                           }
                       }
                   }
+            
+            Button(action: {
+                //Start Tracking
+            }){
+                NavigationLink(destination: CalculateWeightVeiw()) {
+                    Text("Start")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color(.calcButton))
+                        .cornerRadius(10)
+                }
+            }
         }
     }
 }
