@@ -24,6 +24,8 @@
 		13D9C0CC2B7B97B100951DED /* Hydrate_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0CB2B7B97B100951DED /* Hydrate_Watch_AppTests.swift */; };
 		13D9C0D62B7B97B100951DED /* Hydrate_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0D52B7B97B100951DED /* Hydrate_Watch_AppUITests.swift */; };
 		13D9C0D82B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9C0D72B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift */; };
+		A1CA94B62B8238B6009FA140 /* WaterTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA94B52B8238B6009FA140 /* WaterTrackerView.swift */; };
+		A1CA94B82B823901009FA140 /* CupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA94B72B823901009FA140 /* CupsView.swift */; };
 		C541C7C02B7E4A5400243931 /* WaterIntakeVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */; };
 		C541C7C22B7E54E700243931 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C541C7C12B7E54E700243931 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
@@ -103,6 +105,8 @@
 		13D9C0D12B7B97B100951DED /* Hydrate Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hydrate Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D9C0D52B7B97B100951DED /* Hydrate_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrate_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		13D9C0D72B7B97B100951DED /* Hydrate_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrate_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1CA94B52B8238B6009FA140 /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
+		A1CA94B72B823901009FA140 /* CupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupsView.swift; sourceTree = "<group>"; };
 		C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeVeiw.swift; sourceTree = "<group>"; };
 		C541C7C12B7E54E700243931 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +190,8 @@
 				13D9C0942B7B97AE00951DED /* CalculateWeightVeiw.swift */,
 				C541C7C12B7E54E700243931 /* NotificationView.swift */,
 				C541C7BF2B7E4A5400243931 /* WaterIntakeVeiw.swift */,
+				A1CA94B52B8238B6009FA140 /* WaterTrackerView.swift */,
+				A1CA94B72B823901009FA140 /* CupsView.swift */,
 				13D9C0962B7B97B000951DED /* Assets.xcassets */,
 				13D9C0982B7B97B000951DED /* Preview Content */,
 				13D339062B7CE0B50048A59A /* Funcs.swift */,
@@ -477,11 +483,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CA94B82B823901009FA140 /* CupsView.swift in Sources */,
 				13D339072B7CE0B50048A59A /* Funcs.swift in Sources */,
 				13D9C0952B7B97AE00951DED /* CalculateWeightVeiw.swift in Sources */,
 				C541C7C02B7E4A5400243931 /* WaterIntakeVeiw.swift in Sources */,
 				13D9C0932B7B97AE00951DED /* HydrateApp.swift in Sources */,
 				C541C7C22B7E54E700243931 /* NotificationView.swift in Sources */,
+				A1CA94B62B8238B6009FA140 /* WaterTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
